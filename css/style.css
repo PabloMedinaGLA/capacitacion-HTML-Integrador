@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.flex {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Coiny';
+}
+
+/* header */
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    margin: auto;
+}
+
+header > h1 {
+    font-size: 56px ;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+nav > ul > li {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 400;
+    list-style: none;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #808080;
+    margin: 30px;
+}
+
+
+
+/* Main */
+
+main {
+    width: 1500px;
+    margin: auto;
+}
+
+main > section:nth-child(-n + 2 ) {
+    border-bottom: 2px solid gray;
+}
+
+main > section > div {
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+main > section > div > article {
+    width: 690px;
+}
+
+main > section > h1 > strong {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+}
+
+main > section > div > article > h1 {
+    font-family: 'Roboto';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-top: 15px;
+}
+
+main > section > div > article > h1 > strong{
+    font-family: 'coiny';
+    font-size: 117.33px;
+    font-weight: 400;
+
+}
+
+main > section > div > article > h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 26.66px;
+    background-color: #FCEE21;
+    margin-top: 30px;
+    width: max-content;
+}
+
+main > section > div > article > p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 80px;
+}
+
+main > section > div > article > p > strong {
+    font-weight: 700;
+}
+
+main > section > div > img {
+    width: 50%;
+}
+
+.seccion-2 {
+    padding-bottom: 50px;
+}
+
+.seccion-2 > article > h2 {
+    font-size: 34.66px;
+    font-weight: 900;
+    width: max-content;
+}
+
+.seccion-2 > article > p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.seccion-2 > article > p > strong {
+    font-weight: 700;
+}
+
+.servicios {
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.servicios img {
+    width: 644px;
+}
+
+.servicios article {
+    width: 565px;
+}
+
+.servicios h2 {
+    font-family: 'Roboto';
+    font-size: 54.66px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.servicios li {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.servicios li:last-child {
+    background-color: #FCEE21;
+    width: max-content;
+}
+
+/* Formulario */
+
+.contenedor-formulario{
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.contenedor-formulario > div {
+    width: 700px;
+}
+.contenedor-formulario h2,
+.contenedor-formulario h3{
+    font-family: 'Roboto';
+    font-size: 68px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.contenedor-formulario h3 {
+    font-size: 44px;
+    background-color: #FCEE21;
+    width: max-content;
+}
+
+.formulario {
+    flex-direction: column;
+    width: 500px;
+}
+
+.formulario label {
+    font-family: 'Roboto';
+    font-size: 26.66px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+
+.formulario  span {
+    color: red;
+}
+
+.formulario input {
+    width: 500px;
+    height: 40px;
+}
+
+
+.formulario textarea {
+    width: 500px;
+}
+
+.boton {
+    gap: 0 90px;
+}
+
+.boton input{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    margin: 20px 0;
+    padding:0 20px;
+}
+
+/* Contacto Redes */
+
+.redes {
+    margin: 50px 0;
+}
+
+.redes > ul {
+
+    font-size: 33.33px;
+    font-family: 'Roboto';
+    list-style: none;
+    color: #808080;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.redes > ul > li {
+    width: 200px;
+}
+
+
+.redes img {
+    width: 100px;
+}
+
+/* footer */
+
+footer {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+footer > h1 {
+    font-family: 'Coiny', cursive;
+    font-weight: 400;
+    font-size: 44px;
+    padding-left: 100px;
+}
+footer > a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
